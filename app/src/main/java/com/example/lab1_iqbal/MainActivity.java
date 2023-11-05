@@ -42,5 +42,9 @@ public class MainActivity extends AppCompatActivity {
         Toast toast = Toast.makeText(this, "Name Reset", Toast.LENGTH_SHORT);
         toast.show();
     }
+
+    public void displayText(View view){
+        tvMessage.setText("");
+    }
 }
 
